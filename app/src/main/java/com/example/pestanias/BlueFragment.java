@@ -61,8 +61,8 @@ public class BlueFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_blue, container, false);
-        textView = view.findViewById(R.id.txt_display);
-        textView.setText(getArguments().getString("message"));
+        /*textView = view.findViewById(R.id.txt_display);
+        textView.setText(getArguments().getString("message"));*/
         return view;
     }
 }
