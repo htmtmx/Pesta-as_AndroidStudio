@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.addFragment(new ScheduleFragment(), "SCHEDULE");
         viewPagerAdapter.addFragment(new GalleryFragment(), "GALLERY");
         viewPagerAdapter.addFragment(new SlideshowFragment(), "SLIDESHOW");
+        viewPagerAdapter.addFragment(new MapsFragment(),"MAPS");
         viewPager.setAdapter(viewPagerAdapter);
 
         toolbar = findViewById(R.id.toolbar);
